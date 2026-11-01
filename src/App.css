@@ -45,8 +45,12 @@ td {
   border-bottom: 1px solid #dce5df;
 }
 
-th {
+thead th {
   background-color: #17633c;
+  color: white;
+}
+
+thead th.MuiTableCell-root {
   color: white;
 }
 
@@ -76,7 +80,7 @@ tbody tr:nth-child(even) {
 
 .menu-inferior a:hover,
 .menu-inferior a.active {
-  background-color: #ffffff;
+  background-color: white;
   color: #163c29;
 }
 
