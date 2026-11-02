@@ -81,12 +81,7 @@ function App() {
           <Route
             path="*"
             element={
-              <main className="contenedor">
-                <h1>Página no encontrada</h1>
-                <p>Usa el menú para volver al sitio.</p>
-              </main>
-            }
-          />
+              <NoEncontrada />} />
         </Routes>
 
         <MenuInferior />
