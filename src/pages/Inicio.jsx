@@ -1,12 +1,12 @@
 import { useInventario } from '../context/InventarioContext'
 
+const formatoPrecio = new Intl.NumberFormat('es-CL', {
+  style: 'currency',
+  currency: 'CLP',
+})
+
 function Inicio() {
   const { productos } = useInventario()
-
-  const formatoPrecio = new Intl.NumberFormat('es-CL', {
-    style: 'currency',
-    currency: 'CLP',
-  })
 
   return (
     <main className="contenedor">

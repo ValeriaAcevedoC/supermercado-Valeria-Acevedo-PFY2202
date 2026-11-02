@@ -7,6 +7,7 @@ import PreguntasFrecuentes from './pages/PreguntasFrecuentes'
 import AgregarArticulo from './pages/AgregarArticulo'
 import Inventario from './pages/Inventario'
 import MenuInferior from './components/MenuInferior'
+import NoEncontrada from './pages/NoEncontrada'
 import './App.css'
 
 function App() {
